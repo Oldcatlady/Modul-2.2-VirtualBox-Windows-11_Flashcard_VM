@@ -1,0 +1,58 @@
+[
+    {
+      "question": "Was ermöglichen Gemeinsame Ordner?",
+      "answer": "Direkten Dateiaustausch zwischen Host und VM über ein virtuelles Netzlaufwerk."
+    },
+    {
+      "question": "Was ist die Host-Taste in VirtualBox?",
+      "answer": "Eine Taste, die Maus und Tastatur aus der VM befreit und zurück auf den Host gibt."
+    },
+    {
+      "question": "Welche Taste ist standardmäßig die Host-Taste?",
+      "answer": "Die rechte Strg-Taste."
+    },
+    {
+      "question": "Wofür wird die Host-Taste benötigt?",
+      "answer": "Um den Mauszeiger/die Tastatur aus der VM zu lösen, wenn die Guest Additions noch nicht installiert sind."
+    },
+    {
+      "question": "Was ist ein Snapshot?",
+      "answer": "Ein „Foto\" des aktuellen VM-Zustands zu einem bestimmten Zeitpunkt."
+    },
+    {
+      "question": "Wann ist ein Snapshot besonders nützlich?",
+      "answer": "Vor riskanten Tests oder Konfigurationsänderungen — bei Problemen kann man sekundenschnell zurücksetzen."
+    },
+    {
+      "question": "Was ist der Unterschied zwischen Snapshot und Klonen?",
+      "answer": "Ein Snapshot speichert nur den aktuellen Zustand der bestehenden VM. Ein Klon erstellt eine vollständig unabhängige Kopie."
+    },
+    {
+      "question": "Was muss beim Klonen einer VM bezüglich Netzwerk beachtet werden?",
+      "answer": "Die MAC-Adressen der Netzwerkkarten müssen neu initialisiert werden."
+    },
+    {
+      "question": "Warum müssen MAC-Adressen beim Klonen neu vergeben werden?",
+      "answer": "Weil doppelte MAC-Adressen im selben Netz zu IP-Konflikten und Verbindungsproblemen führen."
+    },
+    {
+      "question": "Was ist KMS?",
+      "answer": "Key Management Service — ein Aktivierungsserver im Firmennetzwerk."
+    },
+    {
+      "question": "In welchem Kontext wird KMS eingesetzt?",
+      "answer": "In Unternehmen, um Windows-Lizenzen zentral und intern zu verwalten."
+    },
+    {
+      "question": "Was macht der Befehl slmgr /ipk?",
+      "answer": "Installiert einen Produktschlüssel auf dem System."
+    },
+    {
+      "question": "Was macht der Befehl slmgr /skms?",
+      "answer": "Verweist das System auf den KMS-Server der Firma für die Aktivierung."
+    },
+    {
+      "question": "Wann erfolgt die Aktivierung nach dem KMS-Setup?",
+      "answer": "Automatisch im Hintergrund, nachdem KMS-Server und Key gesetzt wurden."
+    }
+  ]
